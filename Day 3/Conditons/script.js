@@ -1,8 +1,12 @@
-let code = "VP"
+let code = "VV"
 
 
 if (code.toLocaleLowerCase() === "vp") {
-    console.log("Allowed")
+    console.log("Full Access")
+}
+
+else if (code.toLowerCase() === "vv") {
+    console.log("Partial Access")
 }
 
 else {
