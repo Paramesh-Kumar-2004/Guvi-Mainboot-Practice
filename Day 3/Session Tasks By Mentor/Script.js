@@ -19,4 +19,6 @@ for (var k = 1; k <= 10; k++) {
 
 // 4. print the number from 100 to 1 with the difference of 10.
 console.log("4. print the number from 100 to 1 with the difference of 10.");
-for(let l=100;)
+for (let l = 100; l >= 1; l -= 10) {
+  console.log(l);
+}
