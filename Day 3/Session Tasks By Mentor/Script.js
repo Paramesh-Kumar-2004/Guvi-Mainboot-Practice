@@ -28,13 +28,27 @@ console.log(
   "5. write a Function to print the eligble, Not eligble voters separately from the list of array (18,17, 16, 15, 10,8,7,9,35,40,86,75,0). Note: print invalid if the voter age is 0."
 );
 
+var invalid = []
+var eligble = []
+var notEligble = []
+
 function Voting(arr) {
   for (let m = 0; m <= arr.length - 1; m++) {
     if (arr[m] === 0) {
-      console.log("Invalid")
+      invalid.push(arr[m])
     }
     else if (arr[m] < 18) {
-
+      notEligble.push(arr[m])
+    }
+    else {
+      eligble.push(arr[m])
     }
   }
+
+  console.log("Invalid     : ", invalid)
+  console.log("Eligble     : ", eligble)
+  console.log("Not Eligble : ", notEligble)
 }
+
+
+Voting([18, 17, 16, 15, 10, 8, 7, 9, 35, 40, 86, 75, 0])
