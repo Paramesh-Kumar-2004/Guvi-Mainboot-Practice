@@ -22,3 +22,19 @@ console.log("4. print the number from 100 to 1 with the difference of 10.");
 for (let l = 100; l >= 1; l -= 10) {
   console.log(l);
 }
+
+// 5. write a Function to print the eligble, Not eligble voters separately from the list of array (18,17, 16, 15, 10,8,7,9,35,40,86,75,0). Note: print invalid if the voter age is 0.
+console.log(
+  "5. write a Function to print the eligble, Not eligble voters separately from the list of array (18,17, 16, 15, 10,8,7,9,35,40,86,75,0). Note: print invalid if the voter age is 0."
+);
+
+function Voting(arr) {
+  for (let m = 0; m <= arr.length - 1; m++) {
+    if (arr[m] === 0) {
+      console.log("Invalid")
+    }
+    else if (arr[m] < 18) {
+
+    }
+  }
+}
