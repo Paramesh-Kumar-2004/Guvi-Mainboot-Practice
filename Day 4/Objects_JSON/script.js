@@ -1,7 +1,8 @@
+// Object & JSON : Both Are Same But JSON Come Inside The "key" : "value"
+
 // Object
 
 console.log("\nObject :")
-
 let vp = {
     name: "VP",
     age: 21,
