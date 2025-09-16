@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+</head>
+
+<body>
+    <div>
+        <h1>Form</h1>
+
+        <form action="submit">
+            <div>
+                <label for="name">Name :</label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name" required />
+            </div>
+            <br>
+
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" required />
+            </div>
+            <br>
+
+            <div>
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password" placeholder="Enter Your Password" required />
+            </div>
+            <br>
+
+            <div>
+                <label for="file">File :</label>
+                <input type="file" name="file" id="file" required />
+            </div>
+            <br>
+
+            <div>
+                <div>Select Your Gender :</div>
+                <input type="radio" name="gender" id="male" value="Male" />
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="gender" id="female" value="Female" />
+                <label for="female">Female</label>
+            </div>
+            <br>
+
+            <div>
+                <div>Select Known Programming Languages</div>
+                <input type="checkbox" name="python" id="python">
+                <label for="python">Python</label>
+                <br>
+                <input type="checkbox" name="java" id="java">
+                <label for="java">Java</label>
+                <br>
+                <input type="checkbox" name="javascript" id="javascript">
+                <label for="javascript">Javascript</label>
+
+            </div>
+            <br>
+
+            <div>
+                <label for="date">Date </label>
+                <input type="date" name="date" id="date">
+            </div>
+            <br>
+
+            <div>
+                <label for="color">Color</label>
+                <input type="color" name="color" id="color">
+            </div>
+
+            <br><br>
+
+            <div>
+                <button type="submit" onclick=HandleSubmit()>Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function HandleSubmit() {
+            console.log("Submit")
+        }
+    </script>
+</body>
+
+</html>
