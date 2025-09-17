@@ -1,0 +1,38 @@
+.Box1 {
+    height: 126px;
+    width: 126px;
+    background: skyblue;
+    border: 2px solid salmon;
+    margin: 14px;
+    padding: 14px;
+    align-content: center;
+    text-align: center;
+}
+
+/*
+Padding : Inside The Border
+Margin  : Outside The Border
+*/
+
+
+
+
+.Box2 {
+    height: 126px;
+    width: 126px;
+    background: lightpink;
+    border: 2px solid blue;
+    margin: 14px;
+    padding: 14px;
+}
+
+
+/*
+Margin / Padding :  (Both Properties Are Same)
+1. Single Value : (ex : margin: 4px) It's top , bottom , right , left All Are Same 4px. 
+2. Two Value    : (ex : margin: 4px 8px) Top & Bottom : 4px , Right & Left : 8px.
+3. Three Value  : (ex : margin: 4px 8px 2004px) top 4px , left&right 8px, bottom 2004px
+4. Four Value   : (ex : margin: 1px 3px 4px 8px) top 1px, right 3px, bottom 4px, left 8px.
+5. Shorthand Properties : 
+    margin-top : 1px, margin-bottom : 3px, margin-left : 4px, margin-right : 8px.
+*/
