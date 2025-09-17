@@ -1,0 +1,142 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+#Title {
+    text-align: center;
+}
+
+button {
+    background: lightpink;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+
+/* Fixed */
+
+.FixedContainer {
+    height: 700px;
+    width: 200px;
+    background: skyblue;
+}
+
+.FixedBox {
+    margin: 14px;
+    padding: 14px;
+    height: 60px;
+    width: 60px;
+    background: palevioletred;
+}
+
+.FixedBox1 {
+    position: fixed;
+    top: 0;
+    background: blue;
+}
+
+
+
+
+
+
+
+
+
+/* Sticky */
+.StickyContainer {
+    height: 650px;
+    width: 200px;
+    background: skyblue;
+}
+
+
+.StickyBox {
+    margin: 14px;
+    padding: 14px;
+    height: 60px;
+    width: 60px;
+    background: palevioletred;
+}
+
+.StickyBox1 {
+    position: sticky;
+    top: 0;
+    background: aqua;
+}
+
+.StickyBox2 {
+    position: sticky;
+    top: 0;
+    background: blueviolet;
+}
+
+.StickyBox3 {
+    position: sticky;
+    top: 0;
+    background: blue;
+}
+
+
+
+
+
+
+
+
+
+/* Absolute */
+.AbsoluteContainer {
+    height: 650px;
+    width: 200px;
+    background: skyblue;
+}
+
+
+.AbsoluteBox {
+    margin: 14px;
+    padding: 14px;
+    height: 60px;
+    width: 60px;
+    background: palevioletred;
+}
+
+.AbsoluteBox3 {
+    position: absolute;
+    top: 3px;
+    left: 126px;
+    background: cyan;
+}
+
+
+
+
+
+
+
+
+/* Relative */
+
+.RelativeContainer {
+    height: 650px;
+    width: 200px;
+    background: skyblue;
+}
+
+.RelativeBox {
+    margin: 14px;
+    padding: 14px;
+    height: 60px;
+    width: 60px;
+    background: palevioletred;
+}
+
+.RelativeBox3 {
+    left: 126px;
+    position: relative;
+    background: magenta;
+}
