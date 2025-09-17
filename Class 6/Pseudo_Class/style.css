@@ -1,0 +1,22 @@
+#Link {
+    padding: 14px;
+    margin: 14px;
+    background: skyblue;
+    color: red;
+}
+
+
+#Link:visited {
+    color: red;
+    background: lightcoral;
+}
+
+
+#Link:active {
+    color: gold;
+}
+
+#Link:hover {
+    background: none;
+    color: aqua;
+}
