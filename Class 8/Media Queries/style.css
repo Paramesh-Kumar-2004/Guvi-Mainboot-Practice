@@ -1,0 +1,38 @@
+:root {
+    --textColor: darkcyan;
+}
+
+
+
+h1 {
+    display: none;
+}
+
+
+@media screen and (max-width:1440px) {
+    .px1440 {
+        background: blue;
+        display: block;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .px1024 {
+        background: brown;
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .px768 {
+        background: gold;
+        display: block;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .px425 {
+        background: yellow;
+        display: block;
+    }
+}
