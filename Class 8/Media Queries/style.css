@@ -8,6 +8,16 @@ h1 {
     display: none;
 }
 
+h2 {
+    padding: 14px;
+    margin: 14px;
+    justify-self: center;
+    background: aquamarine;
+    color: darkmagenta;
+    border: 2px solid green;
+    border-radius: 14px;
+}
+
 
 @media screen and (max-width:1440px) {
     .px1440 {
