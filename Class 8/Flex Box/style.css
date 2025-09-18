@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container1 {
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightcoral;
+}
+
+.Box {
+    text-align: center;
+    align-content: center;
+    padding: 14px;
+    margin: 14px;
+    height: 100px;
+    width: 100px;
+    background: cyan;
+}
