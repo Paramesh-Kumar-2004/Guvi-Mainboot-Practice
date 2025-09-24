@@ -1,18 +1,26 @@
-# 🚀 JavaScript Basics
+# Guvi Coding Practice Repository
 
-This repository contains fundamental concepts of **JavaScript programming** that are essential for beginners.
+Welcome to the **Guvi Coding Practice** repository! This repo contains various coding exercises, solutions, and class notes to help you improve your programming skills.
 
-## 📝 How to Use
+## Structure
 
-1. Clone or download the repository.
-2. Open the project in any code editor (e.g., VS Code).
-3. Explore the examples provided in the respective topic files.
-4. Run the code using **Node.js** or in a **browser console**.
+- **Folders**: Organized by topics, difficulty levels, or class sessions.
+- **Files**: Each file contains code samples, problem statements, or explanations.
 
-## 🎯 Learning Outcomes
+## How to Use
 
-By exploring this repository, you will:  
-✔ Understand how to work with Java Script.  
-✔ Learn to use programming for repetitive tasks.  
-✔ Gain knowledge of functions for reusability and structure.  
-✔ Apply conditions for decision-making in code.
+1. Browse the folders to find coding problems or class notes.
+2. Open any file to review code samples and solutions.
+3. Practice by solving problems and comparing your solutions.
+
+## Contributing
+
+Feel free to add your own solutions or notes. Make sure to follow the existing folder structure for consistency.
+
+## License
+
+This repository is for educational purposes.
+
+---
+
+Happy Coding!
